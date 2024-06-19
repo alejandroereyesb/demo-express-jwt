@@ -9,8 +9,8 @@ API REST of user login/sign-up, logout and view/add a list of books with with No
 ## Libraries
 
 - Express
-- Dotenv
 - Jsonwebtoken
+- body-parser
 
 ## Installation
 
