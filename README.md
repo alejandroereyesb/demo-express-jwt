@@ -37,7 +37,6 @@ node books.js
 {
     "username": "anna",
     "password": "password123member",
-    "role": "member"
 }
 ```
 Payload. Example JWT returned
@@ -54,7 +53,6 @@ Body:
 {
     "username": "john",
     "password": "password123admin",
-    "role": "admin"
 }
 ```
 Payload. Example JWT returned
