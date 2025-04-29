@@ -31,12 +31,12 @@ node books.js
 
 ## Endpoints
 ### Authentication
-- [GET] http://localhost:3000/login Login user with role "member". Returns JWT of the **member** user
+- [POST] http://localhost:3000/login Login user with role "member". Returns JWT of the **member** user
 
 ```json
 {
     "username": "anna",
-    "password": "password123member",
+    "password": "password123member"
 }
 ```
 Payload. Example JWT returned
@@ -52,7 +52,7 @@ Body:
 ```json
 {
     "username": "john",
-    "password": "password123admin",
+    "password": "password123admin"
 }
 ```
 Payload. Example JWT returned
